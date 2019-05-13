@@ -1,0 +1,57 @@
+[
+    {
+        "name": "retailcrm/api-client-php",
+        "version": "v5.1.4",
+        "version_normalized": "5.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/retailcrm/api-client-php.git",
+            "reference": "2e4e24f50744ece0aa466c5763b1d73c29fb3f84"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/retailcrm/api-client-php/zipball/2e4e24f50744ece0aa466c5763b1d73c29fb3f84",
+            "reference": "2e4e24f50744ece0aa466c5763b1d73c29fb3f84",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "apigen/apigen": "4.*",
+            "phpunit/phpunit": "4.*",
+            "squizlabs/php_codesniffer": "3.*"
+        },
+        "time": "2018-03-06T11:01:00+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "RetailCrm\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "retailCRM",
+                "email": "support@retailcrm.ru"
+            }
+        ],
+        "description": "PHP client for retailCRM API",
+        "homepage": "http://www.retailcrm.ru/",
+        "keywords": [
+            "api",
+            "rest",
+            "retailCRM"
+        ]
+    }
+]
